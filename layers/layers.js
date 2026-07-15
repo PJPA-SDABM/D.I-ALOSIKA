@@ -182,7 +182,7 @@ var group_Aset = new ol.layer.Group({
                                 title: 'Aset'});
 var group_KondisiTahun2025 = new ol.layer.Group({
                                 layers: [lyr_JalanInspeksi_5,lyr_Saluran_6,lyr_Bangunan_7,],
-                                fold: 'open',
+                                fold: 'close',
                                 title: 'Kondisi Tahun 2025'});
 
 lyr_GoogleHybrid_0.setVisible(false);lyr_OSMStandard_1.setVisible(false);lyr_GoogleSatellite_2.setVisible(true);lyr_LuasBaku_3.setVisible(false);lyr_LuasFungsional_4.setVisible(false);lyr_JalanInspeksi_5.setVisible(false);lyr_Saluran_6.setVisible(true);lyr_Bangunan_7.setVisible(true);lyr_PetakTersier_8.setVisible(false);lyr_Saluran_9.setVisible(false);lyr_Bangunan_10.setVisible(false);
