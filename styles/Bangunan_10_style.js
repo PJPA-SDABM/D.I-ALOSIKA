@@ -7,13 +7,13 @@ function categories_Bangunan_10(feature, value, size, resolution, labelText,
     switch(valueStr) {
         case 'B01':
             return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 11.999999999999996 + size, points: 6,
+        image: new ol.style.RegularShape({radius: 12.0 + size, points: 6,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(110,111,250,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.8}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 4.909090909090907 + size, points: 6,
+        image: new ol.style.RegularShape({radius: 4.9091 + size, points: 6,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(110,111,250,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(110,111,250,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -32,7 +32,7 @@ function categories_Bangunan_10(feature, value, size, resolution, labelText,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 3.599999999999999 + size, points: 6,
+        image: new ol.style.RegularShape({radius: 3.6 + size, points: 6,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(250,176,124,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(250,176,124,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -53,13 +53,13 @@ function categories_Bangunan_10(feature, value, size, resolution, labelText,
         case 'C01':
 
             return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 7.1999999999999975 + size, points: 6,
+        image: new ol.style.RegularShape({radius: 7.2 + size, points: 6,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.28}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 2.9454545454545435 + size, points: 6,
+        image: new ol.style.RegularShape({radius: 2.94546 + size, points: 6,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(0,0,0,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
