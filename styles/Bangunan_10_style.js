@@ -79,9 +79,9 @@ var style_Bangunan_10 = function(feature, resolution){
     var labelFill = "#000000";
     var bufferColor = "#fafafa";
     var bufferWidth = 2.4000000000000004;
-    var textAlign = 'left';
-    var offsetX = 8;
-    var offsetY = 3;
+    var textAlign = 'center';
+    var offsetX = 0;
+    var offsetY = -8;
     var overflow = false;
     var repeat = 0;
     var feature
