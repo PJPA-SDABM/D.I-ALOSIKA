@@ -7,14 +7,14 @@ function categories_Bangunan_8(feature, value, size, resolution, labelText,
     switch(valueStr) {
         case 'B01':
             return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 12.0 + size, points: 6,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(110,111,250,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.8}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 17.6 + size, points: 6,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.8}), fill: new ol.style.Fill({color: 'rgba(217,119,6,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 4.9091 + size, points: 6,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(110,111,250,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(110,111,250,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 7.2 + size, points: 6,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(217,119,6,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.28}), fill: new ol.style.Fill({color: 'rgba(217,119,6,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -26,14 +26,14 @@ function categories_Bangunan_8(feature, value, size, resolution, labelText,
         case 'P02':
 
             return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 8.8 + size, points: 6,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(250,139,57,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.28}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 12.0 + size, points: 6,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(5,150,105,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 3.6 + size, points: 6,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(250,176,124,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(250,176,124,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 4.9091 + size, points: 6,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(5,150,105,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(5,150,105,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -53,14 +53,14 @@ function categories_Bangunan_8(feature, value, size, resolution, labelText,
         case 'C01':
 
             return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 7.2 + size, points: 6,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.28}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 10.4 + size, points: 6,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(75,85,99,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 2.94546 + size, points: 6,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(0,0,0,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 4.25454 + size, points: 6,
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(75,85,99,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(75,85,99,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)

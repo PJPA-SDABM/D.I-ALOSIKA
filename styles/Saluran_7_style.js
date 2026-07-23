@@ -5,28 +5,28 @@ function categories_Saluran_7(feature, value, size, resolution, labelText,
                        placement, textAlign, offsetX, offsetY, overflow, repeat) {
     var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
     switch(valueStr) {
-        case 'Primer':
+        case 'Saluran Primer':
             return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 7.827999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(34,202,199,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 5.548}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,255,255,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 5.548}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 			break;
 
-        case 'Sekunder':
+        case 'Saluran Sekunder':
             return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 7.827999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     }),new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(227,52,227,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 5.548}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,71,171,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 5.548}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
@@ -52,8 +52,8 @@ var style_Saluran_7 = function(feature, resolution){
     var overflow = false;
     var repeat = 0;
     var placement = 'line';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("Jenis") !== null) {
+        labelText = String(feature.get("Jenis"));
     }
     
     var style = categories_Saluran_7(feature, value, size, resolution, labelText,

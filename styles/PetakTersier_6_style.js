@@ -10,9 +10,9 @@ var style_PetakTersier_6 = function(feature, resolution){
     var labelText = ""; 
     var value = feature.get("");
     var labelFont = "13.0px \'Open Sans\', sans-serif";
-    var labelFill = "#a6d96a";
+    var labelFill = "#ffffff";
     var bufferColor = "#000000";
-    var bufferWidth = 3.0;
+    var bufferWidth = 3.5999999999999996;
     var textAlign = 'left';
     var offsetX = 8;
     var offsetY = 3;
@@ -23,7 +23,7 @@ var style_PetakTersier_6 = function(feature, resolution){
         labelText = String(feature.get("Nm_Inf"));
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(87,114,56,1.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,0,139,1.0)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
